@@ -1,72 +1,96 @@
+/***** Fonts ******/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
 
+/***** Container formatting *****/
+* {
+	box-sizing: border-box;
+}
+
 #container {
-	width: 500px;
+	width: 600px;
 	margin: auto;
+
 }
 
 #container * {
 	font-family: Open Sans;
+	
+}
+
+#container > * {
+	padding: 10px 30px;
 	margin: 0px;
 }
-/*header*/
+
+/***** Common Button Styling ******/
+.button {
+	display: block;
+	border-radius: 5px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 800;
+	font-size: 14px;
+	padding: 5px;
+}
+
+/***** HEADER *****/
 header {
 	background-image: url("../images/header_bg.jpg");
-
+	background-size: cover;
+	height: 300px;
 }
 
 header h1 {
 	font-weight: 800;
 	font-size: 24px;
-	color: #ffffff;
+	color: #ffffff; /*white*/
 }
 header p {
 	font-weight: 600;
 	font-size: 24px;
-	color: #ffffff;
-}
-
-/*button 1*/
-#button1 a {
-	font-weight: 800;
-	font-size: 14px;
-	text-decoration: none;
-	color: #033048;
-}
-
-#button1 {
-	border-radius: 5px;
-	background-color: #f9e42e;
-	height: 28px;
-	width: 120px;
-	margin: auto;
+	color: #ffffff; /*white*/
 	text-align: center;
+	margin-bottom: 50px;
 }
 
-/*benefits section*/
-#benefits {
-	background-color: #f0efef
+header a {
+	background-color: #f9e42e; /*yellow*/
+	width: 150px;
+	height: 30px;
+	color: #033048; /*dark blue*/
+}
 
+/***** benefits section *****/
+#benefits {
+	background-color: #f0efef; /*light gray*/
+	padding-right: 40%;
+	
 }
 
 #benefits h1 {
 	font-weight: 600;
 	font-size: 20px;
+	color: #033048;
 }
 
 #benefits p {
 	font-weight: 300;
 	font-size: 13px;
+	color: #606161;
 }
 
 #benefits ul {
 	font-weight: 300;
 	font-size: 13px;
+	color: #606161;
 }
 
-/*testimonial section*/
+/***** testimonial section *****/
 #testimonial {
-	background-image: url("../images/testimonial_bg.jpg")
+	background-image: url("../images/testimonial_bg.jpg");
+	background-size: cover;
+	padding: 10% 20%;
 
 }
 
@@ -74,32 +98,82 @@ header p {
 	font-weight: 300;
 	font-size: 18px;
 	color: #ffffff;
+	text-align: center;
+	margin: 0px;
 }
 
 span {
 	font-weight: 600;
 }
 
+/***** Sign Up section *****/
 #signUp {
-	background-color: #f9e42e
+	background-color: #f9e42e; /*yellow*/
 }
 
-#button2 {
-	border-radius: 5px;
-	background-color: #033048;
-	height: 28px;
-	width: 120px;
-	margin: auto;
-	text-align: center;
+#signUp a {
+	background-color: #033048; /*dark blue*/
+	width: 150px;
+	height: 30px;
+	color: #ffffff;
 }
 
-#button2 a {
-	font-weight: 800;
-	font-size: 14px;
-	text-decoration: none;
-	color: #f9e42e;
-}
+/***** FOOTER *****/
 
 footer {
-	background-color: #121212
+	background-color: #121212;
 }
+
+footer h1 {
+	text-align: center;
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 24px;
+	margin: 20px;
+}
+
+footer div {
+  float: left;
+  width: 50%;
+}
+
+footer a {
+  height: 20px;
+}
+
+footer img {
+  height: inherit;
+}
+
+#twitter img {
+  float: right;
+  margin-right: 10px;
+}
+
+#facebook img {
+  margin-left: 10px;
+}
+
+footer p {
+	text-align: center;
+	color: #ffffff;
+	font-size: 9px;
+	font-weight: 600;
+	padding-top: 40px;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
