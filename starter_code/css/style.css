@@ -1,9 +1,13 @@
-/***** Fonts ******/
+/*****IMPORTING GOOGLE FONTS******/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
 
-/***** Container formatting *****/
-* {
+/*****BODY & CONTAINER FORMATTING*****/
+body * {
 	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
 }
 
 #container {
@@ -22,7 +26,7 @@
 	margin: 0px;
 }
 
-/***** Common Button Styling ******/
+/***** COMMON BUTTON STYLING ******/
 .button {
 	display: block;
 	border-radius: 5px;
@@ -61,7 +65,7 @@ header a {
 	color: #033048; /*dark blue*/
 }
 
-/***** benefits section *****/
+/***** BENEFITS SECTION *****/
 #benefits {
 	background-color: #f0efef; /*light gray*/
 	padding-right: 40%;
@@ -86,7 +90,7 @@ header a {
 	color: #606161;
 }
 
-/***** testimonial section *****/
+/***** TESTIMONIAL SECTION *****/
 #testimonial {
 	background-image: url("../images/testimonial_bg.jpg");
 	background-size: cover;
@@ -106,7 +110,7 @@ span {
 	font-weight: 600;
 }
 
-/***** Sign Up section *****/
+/***** SIGN UP SECTION *****/
 #signUp {
 	background-color: #f9e42e; /*yellow*/
 }
